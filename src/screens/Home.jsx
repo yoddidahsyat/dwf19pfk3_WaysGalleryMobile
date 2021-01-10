@@ -53,7 +53,7 @@ function Home() {
                 </Left>
                 <Body>
                     <Text>{item.title}</Text>
-                    <Text note numberOfLines={1}>{item.description}</Text>
+                    <Text note numberOfLines={1}>by: {item.author.fullName}</Text>
                 </Body>
                 <Right>
                     <Button transparent>
